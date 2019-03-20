@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculo IMC</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>IMC</h1>
+
+    <form action="submit" class="form">
+        <div class="form-campos">
+            <div class="linha">
+                <span>Nome</span>
+                <input id="nome" type="text">
+            </div>
+            <div class="linha">
+                <span>Idade</span>
+                <input id="idade" type="number">
+            </div>
+            
+        </div>
+        <div class="form-campos">
+            <div class="linha">
+                <span>Altura</span>
+                <input type="text" id="altura">
+            </div>
+            <div class="linha">
+                <span>Peso</span>
+                <input type="number" id="peso">
+            </div>            
+        </div>
+        <div class="btn">
+            <button type="submit">Calcular IMC</button>
+        </div>
+        
+    </form>     
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>IMC</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+    </table>
+    
+    <script src="model/pessoa.js"></script>
+    <script src="model/animal.js"></script>
+    <script src="script/main.js"></script>    
+</body>
+</html>
