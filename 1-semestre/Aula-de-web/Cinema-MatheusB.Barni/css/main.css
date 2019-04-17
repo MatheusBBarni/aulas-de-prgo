@@ -1,0 +1,199 @@
+/*
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Boogaloo', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 43px;
+    font-weight: 400;
+    font-family: 'Boogaloo', cursive;
+}
+header h1 strong {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+/*
+Caixa texto poster: cor fundo: #F3F2F1; cor base: #DDDDDD
+
+Destaque: Tahoma; 20px; negrito
+
+Destaque 2: Tahoma; 24px; negrito
+
+Destaque menor: Tahoma; 15px; negrito; 
+
+Nome seção: Tahoma: 26px; negrito; cor: #FB9939
+
+Texto lista destaque: Tahoma: 12px;
+*/
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #FB8300;
+}
+.menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.menu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.menu ul li {
+    list-style-type: none;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu ul li a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li a:hover{
+    background-color: #FB9939;
+}
+
+.corpo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.header-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.posters {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.posters .poster1 {
+    width: 50%;
+}
+.posters .poster2 {
+    width: 50%;
+}
+.posters  .quadrado-poster {
+    width: 260px;
+    height: 415px;
+    background-color: #F3F2F1;
+    border-bottom: 4px solid #DDDDDD;
+}
+.posters  .quadrado-poster p {
+    font-size: 14px;
+    font-family: 'Segoe UI', 'Tahoma, Geneva, Verdana, sans-serif';
+    font-weight: 900;
+    padding: 10px;
+}
+.posters .quadrado-poster img {
+    width: 260px;
+    height: 305px;
+}
+
+.banners {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-destaque {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F3F2F1;
+    border-bottom: 4px solid #DDDDDD;
+}
+.banner-destaque img {
+    width: 100%;
+}
+.banner-destaque p {
+    padding: 15px;
+    font-family: 'Segoe UI', 'Tahoma, Geneva, Verdana, sans-serif';
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.banner-menor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+}
+.banner-menor p {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Tahoma, Geneva, Verdana, sans-serif';
+    font-weight: 900;
+}
+
+.footer-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.footer-body .destaques {
+    width: 28%;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-body .destaques .titulo h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.footer-body .destaques .destaque {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+}
+.footer-body .destaques .destaque p {
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 15px;
+}
+.footer-body .noticias {
+    width: 68%;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #000000
+}
